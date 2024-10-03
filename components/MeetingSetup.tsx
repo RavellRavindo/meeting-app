@@ -16,7 +16,7 @@ const MeetingSetup = ({
   const call = useCall();
 
   if (!call) {
-    throw new Error(" useacll must be used within StreamCall component");
+    throw new Error(" usecall must be used within StreamCall component");
   }
 
   useEffect(() => {
